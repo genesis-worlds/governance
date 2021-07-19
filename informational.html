@@ -1,0 +1,7 @@
+---
+layout: page
+title: Informational
+---
+
+{% assign cips=site.pages|where:"type","Informational" %}
+{% include ciptable.html cips=cips %}

@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e # halt script on error
 
-HTMLPROOFER_OPTIONS="./_site --internal-domains=cips.genesis.game --check-html --check-opengraph --report-missing-names --log-level=:debug --assume-extension --empty-alt-ignore --timeframe=6w --url-ignore=/CIPS/cip-1,CIPS/cip-1,/CIPS/cip-107,/CIPS/cip-858"
+HTMLPROOFER_OPTIONS="./_site --internal-domains=gov.genesis.game --check-html --check-opengraph --report-missing-names --log-level=:debug --assume-extension --empty-alt-ignore --timeframe=6w --url-ignore=/CIPS/cip-1,CIPS/cip-1,/CIPS/cip-107,/CIPS/cip-858"
 
 if [[ $TASK = 'htmlproofer' ]]; then
   bundle exec jekyll doctor

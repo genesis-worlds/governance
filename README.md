@@ -4,19 +4,19 @@
 
 Community Improvement Proposals (CIPs) describe standards for the Genesis platform, including core protocol specifications, client APIs, and contract standards.
 
-**Before you initiate a pull request**, please read the [CIP-1](https://cips.genesis.game/CIPS/cip-1) process document. Ideas should be thoroughly discussed prior to opening a pull request, such as on the [Genesis forums](https://FIXME.org) or in a GitHub issue in this repository.
+**Before you initiate a pull request**, please read the [CIP-1](https://gov.gamecredits.org/CIPS/cip-1) process document. Ideas should be thoroughly discussed prior to opening a pull request, such as on the [Genesis forums](https://FIXME.org) or in a GitHub issue in this repository.
 
 This repository tracks the ongoing status of CIPs. It contains:
 
-- [Draft](https://cips.genesis.game/all#draft) proposals which intend to complete the CIP review process.
-- [Last Call](https://cips.genesis.game/all#last-call) for proposals that may become final (see also [RSS feed](https://cips.genesis.game/last-call.xml)).
-- [Accepted](https://cips.genesis.game/all#accepted) proposals which are awaiting implementation or deployment by Genesis client developers.
-- [Final](https://cips.genesis.game/all#final) and [Active](https://cips.genesis.game/all#active) proposals that are recorded.
+- [Draft](https://gov.gamecredits.org/all#draft) proposals which intend to complete the CIP review process.
+- [Last Call](https://gov.gamecredits.org/all#last-call) for proposals that may become final (see also [RSS feed](https://gov.gamecredits.org/last-call.xml)).
+- [Accepted](https://gov.gamecredits.org/all#accepted) proposals which are awaiting implementation or deployment by Genesis client developers.
+- [Final](https://gov.gamecredits.org/all#final) and [Active](https://gov.gamecredits.org/all#active) proposals that are recorded.
 - The [CIP process](./CIPS/cip-1.md#cip-work-flow) that governs the CIP repository.
 
 Achieving "Final" status in this repository only represents that a proposal has been reviewed for technical accuracy. It is solely the responsibility of the reader to decide whether a proposal will be useful to them.
 
-Browse all current and draft CIPs on [the official CIP site](https://cips.genesis.game/).
+Browse all current and draft CIPs on [the official CIP site](https://gov.gamecredits.org/).
 
 Once your first PR is merged, we have a bot that helps out by automatically merging PRs to draft CIPs. For this to work, it has to be able to tell that you own the draft being edited. Make sure that the 'author' line of your CIP contains either your GitHub username or your email address inside \<triangular brackets>. If you use your email address, that address must be the one publicly shown on [your GitHub profile](https://github.com/settings/profile).
 
@@ -26,11 +26,11 @@ The Community Improvement Proposals repository exists as a place to share concre
 
 ## Preferred Citation Format
 
-The canonical URL for a CIP that has achieved draft status at any point is at https://cips.genesis.game/. For example, the canonical URL for CIP-1 is https://cips.genesis.game/CIPS/cip-1.
+The canonical URL for a CIP that has achieved draft status at any point is at https://gov.gamecredits.org/. For example, the canonical URL for CIP-1 is https://gov.gamecredits.org/CIPS/cip-1.
 
-Please consider anything which is not published on https://cips.genesis.game/ as a working paper.
+Please consider anything which is not published on https://gov.gamecredits.org/ as a working paper.
 
-And please consider anything published at https://cips.genesis.game/ with a status of "draft" as an incomplete draft.
+And please consider anything published at https://gov.gamecredits.org/ with a status of "draft" as an incomplete draft.
 
 # Validation
 

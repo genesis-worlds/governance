@@ -1,9 +1,15 @@
 <p>
-  <a href="{{"core"|relative_url}}">Genesis Core</a>: 
-  <a href="{{"core/vision"|relative_url}}">Vision</a> | 
-  <a href="{{"core/principles"|relative_url}}">Principles</a> | 
-  <a href="{{"core/philosophy"|relative_url}}">Philosophy</a> | 
-  <a href="{{"core/tokenomics"|relative_url}}">Tokenomics</a> | 
-  <a href="{{"core/governance"|relative_url}}">Governance</a> | 
-  <a href="{{"core/roadmap"|relative_url}}">Roadmap</a>
+{% for item in site.data.menus.coremenu %}
+  {% assign item_relative_url = "/" | append: item.url %}
+  {% if page.url == item_relative_url %}
+    <a href="{{ item.url | relative_url }}" style="text-decoration: underline;">{{ item. title }}</a>
+  {% else %}
+    <a href="{{ item.url | relative_url }}">{{ item. title }}</a>
+  {% endif %}
+  {% if forloop.first == true %}
+    :
+  {% elsif forloop.last == false %}
+    |
+  {% endif %}
+{% endfor %}
 </p>

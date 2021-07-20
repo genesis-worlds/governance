@@ -23,9 +23,8 @@ header_pages:
  - index.html
  - core.html
  - governance.html
- - core/roadmap.html
  - cips.html
- - resources/resources.html
+ - resources.html
  - backlog.html
 twitter:
   card: summary

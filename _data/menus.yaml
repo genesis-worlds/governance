@@ -1,0 +1,15 @@
+coremenu:
+  - url: core
+    title: Genesis Core Docs
+  - url: core/vision
+    title: Vision
+  - url: core/principles
+    title: Principles
+  - url: core/philosophy
+    title: Philosophy
+  - url: core/tokenomics
+    title: Tokenomics
+  - url: core/governance
+    title: Governance 
+  - url: core/roadmap
+    title: Roadmap

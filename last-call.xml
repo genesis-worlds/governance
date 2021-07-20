@@ -17,7 +17,7 @@ layout: null
         {% if cip.discussions-to %}
           <p>The author has requested that discussions happen at the following URL: {{ cip.discussions-to }}</p>
         {% else %}
-          <p>Please visit the [FIXME/CIPs issues to comment](https://github.com/FIXME/CIPs/issues/{{cip.cip}}).</p>
+          <p>Please visit the [genesis-worlds/community issues to comment](https://github.com/genesis-worlds/community/issues/{{cip.cip}}).</p>
         {% endif %}
         <hr />
         {{ cip.content }}        

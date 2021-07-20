@@ -3,45 +3,14 @@ layout: default
 title: Home
 ---
 
-<h1 class="page-heading">CIPs
+<h1 class="page-heading">Genesis Community Hub
   <a href="https://gitter.im/FIXME/CIPs?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Gitter"></a>
   <a href="/last-call.xml"><img src="https://img.shields.io/badge/rss-Last Calls-red.svg" alt="RSS"></a>
 </h1>
-<p>Community Improvement Proposals (CIPs) describe standards for the Genesis platform, including core protocol specifications, client APIs, and contract standards.</p>
+<p>The Genesis Community Hub contains the source of truth for all things Genesis Community, including community standards, and the Community Improvement Proposals (CIPs) process. </p>
+
+<h2><a href="{{"cips"|relative_url}}">CIPs</a></h2>
+<p>CIPs describe standards for the Genesis platform, including core protocol specifications, client APIs, and contract standards. To review and contribute to the CIPs, go to the <a href="{{"cips"|relative_url}}">Community Improvement Proposal Hub</a></p>
 
 <h2>Contributing</h2>
-<p>First review <a href="CIPS/cip-1">CIP-1</a>. Then clone the repository and add your CIP to it. There is a <a href="https://github.com/FIXME/CIPs/blob/master/cip-template.md">template CIP here</a>. Then submit a Pull Request to Genesis's <a href="https://github.com/FIXME/CIPs">CIPs repository</a>.</p>
-
-<h2>CIP status terms</h2>
-<ul>
-  <li><strong>Draft</strong> - an CIP that is open for consideration and is undergoing rapid iteration and changes.</li>
-  <li><strong>Last Call</strong> - an CIP that is done with its initial iteration and ready for review by a wide audience.</li>
-  <li><strong>Accepted</strong> - a core CIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author. The process for Core Devs to decide whether to encode an CIP into their clients as part of a hard fork is not part of the CIP process. If such a decision is made, the CIP will move to final. </li>
-  <li><strong>Final (non-Core)</strong> - an CIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author.</li>
-  <li><strong>Final (Core)</strong> - an CIP that the Core Devs have decided to implement and release in a future hard fork or has already bZZeen released in a hard fork.</li>
-</ul>
-
-<h2>CIP Types</h2>
-
-<p>CIPs are separated into a number of types, and each has its own list of CIPs.</p>
-
-<h3>Standard Track ({{site.pages|where:"type","Standards Track"|size}})</h3>
-<p>Describes any change that affects most or all Genesis implementations, such as a change to the the network protocol, a change in block or transaction validity rules, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using Genesis. Furthermore Standard CIPs can be broken down into the following categories.</p>
-
-<h4><a href="{{"core"|relative_url}}">Core</a> ({{site.pages|where:"type","Standards Track"|where:"category","Core"|size}})</h4>
-<p>Improvements requiring a consensus fork (e.g. <a href="CIPS/cip-5">CIP-5</a>, <a href="CIPS/cip-101">CIP-101</a>), as well as changes that are not necessarily consensus critical but may be relevant to “core dev” discussions (for example, the miner/node strategy changes 2, 3, and 4 of <a href="CIPS/cip-86">CIP-86</a>).</p>
-
-<h4><a href="{{"networking"|relative_url}}">Networking</a> ({{site.pages|where:"type","Standards Track"|where:"category","Networking"|size}})</h4>
-<p>Includes improvements around devp2p (<a href="CIPS/cip-8">CIP-8</a>) and Light Genesis Subprotocol, as well as proposed improvements to network protocol specifications of whisper and swarm.</p>
-
-<h4><a href="{{"interface"|relative_url}}">Interface</a> ({{site.pages|where:"type","Standards Track"|where:"category","Interface"|size}})</h4>
-<p>Includes improvements around client API/RPC specifications and standards, and also certain language-level standards like method names (<a href="CIPS/cip-6">CIP-6</a>) and contract ABIs. The label “interface” aligns with the interfaces repo and discussion should primarily occur in that repository before an CIP is submitted to the CIPs repository.</p>
-
-<h4><a href="{{"erc"|relative_url}}">ERC</a> ({{site.pages|where:"type","Standards Track"|where:"category","ERC"|size}})</h4>
-<p>Application-level standards and conventions, including contract standards such as token standards (<a href="CIPS/cip-20">ERC-20</a>), name registries (<a href="CIPS/cip-137">ERC-137</a>), URI schemes (<a href="CIPS/cip-681">ERC-681</a>), library/package formats (<a href="CIPS/cip-190">CIP-190</a>), and wallet formats (<a href="https://github.com/FIXME/CIPs/issues/85">CIP-85</a>).</p>
-
-<h3><a href="{{"meta"|relative_url}}">Meta</a> ({{site.pages|where:"type","Meta"|size}})</h3>
-<p>Describes a process surrounding Genesis or proposes a change to (or an event in) a process. Process CIPs are like Standards Track CIPs but apply to areas other than the Genesis protocol itself. They may propose an implementation, but not to Genesis's codebase; they often require community consensus; unlike Informational CIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Genesis development. Any meta-CIP is also considered a Process CIP.</p>
-
-<h3><a href="{{"informational"|relative_url}}">Informational</a> ({{site.pages|where:"type","Informational"|size}})</h3>
-<p>Describes a Genesis design issue, or provides general guidelines or information to the Genesis community, but does not propose a new feature. Informational CIPs do not necessarily represent Genesis community consensus or a recommendation, so users and implementers are free to ignore Informational CIPs or follow their advice.</p>
+<p>First review <a href="CIPS/cip-1">CIP-1</a>. Then clone the repository and add your CIP to it. There is a <a href="https://github.com/genesis-worlds/community/blob/main/cip-template.md">template CIP here</a>. Then submit a Pull Request to Genesis's <a href="https://github.com/genesis-worlds/community">CIPs repository</a>.</p>

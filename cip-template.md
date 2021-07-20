@@ -4,8 +4,8 @@ title: <CIP title>
 author: <a list of the author's or authors' name(s) and/or username(s), or name(s) and email(s), e.g. (use with the parentheses or triangular brackets): FirstName LastName (@GitHubUsername), FirstName LastName <foo@bar.com>, FirstName (@GitHubUsername) and GitHubUsername (@GitHubUsername)>
 discussions-to: <URL>
 status: Draft
-type: <Standards Track, Meta, or Informational>
-category (*only required for Standards Track): <Core, Networking, Interface, or ERC>
+type: <Core, Governance, GRC, or GameDev>
+category (*only required for GameDev Track): <Gameplay, Art, Lore, Economy, or Software>
 created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
 requires (*optional): <CIP number(s)>
 replaces (*optional): <CIP number(s)>
@@ -36,13 +36,13 @@ The rationale fleshes out the specification by describing what motivated the des
 All CIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The CIP must explain how the author proposes to deal with these incompatibilities. CIP submissions without a sufficient backwards compatibility treatise may be rejected outright.
 
 ## Test Cases
-Test cases for an implementation are mandatory for CIPs that are affecting consensus changes. Other CIPs can choose to include links to test cases if applicable.
+Test cases for an implementation are mandatory for CIPs that are affecting software changes. Other CIPs can choose to include links to test cases if applicable.
 
 ## Reference Implementation
 An optional section that contains a reference/example implementation that people can use to assist in understanding or implementing this specification.  If the implementation is too large to reasonably be included inline, then consider adding it as one or more files in `../assets/cip-####/`.
 
-## Security Considerations
-All CIPs must contain a section that discusses the security implications/considerations relevant to the proposed change. Include information that might be important for security discussions, surfaces risks and can be used throughout the life cycle of the proposal. E.g. include security-relevant design decisions, concerns, important discussions, implementation-specific guidance and pitfalls, an outline of threats and risks and how they are being addressed. CIP submissions missing the "Security Considerations" section will be rejected. An CIP cannot proceed to status "Final" without a Security Considerations discussion deemed sufficient by the reviewers.
+## Community Considerations
+All CIPs must contain a section that discusses the community implications/considerations relevant to the proposed change. Include information that might be important for community discussions, surfaces risks and can be used throughout the life cycle of the proposal. E.g. include community-relevant design decisions, concerns, important discussions, implementation-specific guidance and pitfalls, an outline of threats and risks and how they are being addressed. CIP submissions missing the "Community Considerations" section will be rejected. An CIP cannot proceed to status "Final" without a Community Considerations discussion deemed sufficient by the reviewers.
 
 ## Copyright
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).

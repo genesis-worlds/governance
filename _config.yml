@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Community Improvement Proposals
+title: Genesis Community
 description: >-
   Community Improvement Proposals (CIPs) describe standards for the Genesis
   platform, including core protocol specifications, client APIs, and contract
@@ -22,13 +22,12 @@ url: "https://cips.genesis.game"
 twitter_username: FIXME
 github_username:  FIXME
 header_pages:
- - all.html
+ - index.html
  - core.html
- - networking.html
- - interface.html
- - erc.html
- - meta.html
- - informational.html
+ - vision.html
+ - roadmap.html
+ - cips.html
+ - resources.html
 twitter:
   card: summary
   username: FIXME

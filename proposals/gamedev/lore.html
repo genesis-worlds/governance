@@ -1,0 +1,7 @@
+---
+layout: page
+title: Lore
+---
+
+{% assign cips=site.pages|where:"type","GameDev"|where:"category","Lore" %}
+{% include ciptable.html cips=cips %}

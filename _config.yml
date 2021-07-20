@@ -17,8 +17,11 @@ title: Genesis Governance
 description: >-
   Governance, Community Resources, and Community Improvement Proposals (CIPs) for the Genesis Metaverse.
 url: "https://gov.gamecredits.org"
-twitter_username: FIXME
-github_username:  FIXME
+social:
+  twitter: gamecredits
+  github: genesis-worlds
+  discord: BgY8enPYBu
+  telegram: uuJnyrYQvdJlZDAx
 header_pages:
  - index.html
  - core.html
@@ -28,7 +31,7 @@ header_pages:
  - backlog.html
 twitter:
   card: summary
-  username: FIXME
+  username: gamecredits
 
 # Build settings
 highlighter: rouge

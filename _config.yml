@@ -27,6 +27,7 @@ header_pages:
  - core/roadmap.html
  - cips.html
  - resources/resources.html
+ - backlog.html
 twitter:
   card: summary
   username: FIXME

@@ -24,10 +24,9 @@ github_username:  FIXME
 header_pages:
  - index.html
  - core.html
- - vision.html
- - roadmap.html
+ - core/roadmap.html
  - cips.html
- - resources.html
+ - resources/resources.html
 twitter:
   card: summary
   username: FIXME

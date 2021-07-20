@@ -102,7 +102,7 @@ Each CIP should have the following parts:
 
 ## CIP Formats and Templates
 
-CIPs should be written in [markdown] format. There is a [template](https://github.com/FIXME/CIPs/blob/master/cip-template.md) to follow.
+CIPs should be written in [markdown] format. There is a [template](https://github.com/genesis-worlds/governance/blob/master/cip-template.md) to follow.
 
 ## CIP Header Preamble
 
@@ -263,9 +263,9 @@ This document was derived heavily from [Bitcoin's BIP-0001] written by Amir Taak
 [interfaces repo]: https://github.com/FIXME/interfaces
 [the Genesis subreddit]: https://www.reddit.com/r/FIXME/
 [one of the Genesis Gitter chat rooms]: https://gitter.im/FIXME/
-[pull request]: https://github.com/FIXME/CIPs/pulls
+[pull request]: https://github.com/genesis-worlds/governance/pulls
 [formal specification]: https://github.com/FIXME/yellowpaper
-[the Issues section of this repository]: https://github.com/FIXME/CIPs/issues
+[the Issues section of this repository]: https://github.com/genesis-worlds/governance/issues
 [markdown]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [Bitcoin's BIP-0001]: https://github.com/bitcoin/bips
 [Python's PEP-0001]: https://www.python.org/dev/peps/

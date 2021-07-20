@@ -1,3 +1,7 @@
+# GENESIS Governance Hub
+
+This site holds the code for the Genesis Metaverse governance hub. It includes the core vision for the project, governance processes and procedures, the community improvement process, as well as key resources such as the roadmap.
+
 # GENESIS Community Improvement Proposals (CIPs)
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/FIXME/CIPs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)

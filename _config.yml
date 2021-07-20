@@ -13,17 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Genesis Community
+title: Genesis Governance
 description: >-
-  Community Improvement Proposals (CIPs) describe standards for the Genesis
-  platform, including core protocol specifications, client APIs, and contract
-  standards.
+  Governance, Community Resources, and Community Improvement Proposals (CIPs) for the Genesis Metaverse.
 url: "https://gov.gamecredits.org"
 twitter_username: FIXME
 github_username:  FIXME
 header_pages:
  - index.html
  - core.html
+ - governance.html
  - core/roadmap.html
  - cips.html
  - resources/resources.html

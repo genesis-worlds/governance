@@ -36,7 +36,7 @@ twitter:
 # Build settings
 highlighter: rouge
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-slate
 kramdown:
   parse_block_html: false
   # This is the default, but be explicit as some CIPs depend on it

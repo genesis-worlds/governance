@@ -87,3 +87,7 @@ $ bundle exec jekyll serve
 2. Preview your local Jekyll site in your web browser at `http://localhost:4000`.
 
 More information on Jekyll and GitHub pages [here](https://help.github.com/en/enterprise/2.14/user/articles/setting-up-your-github-pages-site-locally-with-jekyll).
+
+# License
+
+FIXME Determine the license type and put it here

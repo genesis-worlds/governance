@@ -1,9 +1,9 @@
 ---
-cip: 4
+cip: 2
 title: CIP Classification
 author: Joseph Chow (@ethers)
 status: Final
-type: Meta
+type: Core
 created: 2015-11-17
 superseded-by: 1
 ---

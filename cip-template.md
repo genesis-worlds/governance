@@ -4,8 +4,7 @@ title: <CIP title>
 author: <a list of the author's or authors' name(s) and/or username(s), or name(s) and email(s), e.g. (use with the parentheses or triangular brackets): FirstName LastName (@GitHubUsername), FirstName LastName <foo@bar.com>, FirstName (@GitHubUsername) and GitHubUsername (@GitHubUsername)>
 discussions-to: <URL>
 status: Draft
-type: <Core, Governance, GRC, or GameDev>
-category (*only required for GameDev Track): <Gameplay, Art, Lore, Economy, or Software>
+type: <Core, Governance, Standards, or GameDev>
 created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
 requires (*optional): <CIP number(s)>
 replaces (*optional): <CIP number(s)>
@@ -13,7 +12,7 @@ replaces (*optional): <CIP number(s)>
 
 This is the suggested template for new CIPs.
 
-Note that an CIP number will be assigned by an editor. When opening a pull request to submit your CIP, please use an abbreviated title in the filename, `cip-draft_title_abbrev.md`.
+Note that a CIP number will be assigned by an editor. When opening a pull request to submit your CIP, please use an abbreviated title in the filename, `cip-draft_title_abbrev.md`.
 
 The title should be 44 characters or less.
 
@@ -42,7 +41,7 @@ Test cases for an implementation are mandatory for CIPs that are affecting softw
 An optional section that contains a reference/example implementation that people can use to assist in understanding or implementing this specification.  If the implementation is too large to reasonably be included inline, then consider adding it as one or more files in `../assets/cip-####/`.
 
 ## Community Considerations
-All CIPs must contain a section that discusses the community implications/considerations relevant to the proposed change. Include information that might be important for community discussions, surfaces risks and can be used throughout the life cycle of the proposal. E.g. include community-relevant design decisions, concerns, important discussions, implementation-specific guidance and pitfalls, an outline of threats and risks and how they are being addressed. CIP submissions missing the "Community Considerations" section will be rejected. An CIP cannot proceed to status "Final" without a Community Considerations discussion deemed sufficient by the reviewers.
+All CIPs must contain a section that discusses the community implications/considerations relevant to the proposed change. Include information that might be important for community discussions, surfaces risks and can be used throughout the life cycle of the proposal. E.g. include community-relevant design decisions, concerns, important discussions, implementation-specific guidance and pitfalls, an outline of threats and risks and how they are being addressed. CIP submissions missing the "Community Considerations" section will be rejected. A CIP cannot proceed to status "Final" without a Community Considerations discussion deemed sufficient by the reviewers.
 
 ## Copyright
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).

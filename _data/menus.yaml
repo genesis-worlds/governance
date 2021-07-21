@@ -13,3 +13,13 @@ coremenu:
     title: Governance 
   - url: core/roadmap
     title: Roadmap
+
+policymenu:
+  - url: terms
+    title: Terms of Service
+  - url: privacy
+    title: Privacy Policy
+  - url: contentpolicy
+    title: Content Policy
+  - url: codeofethics
+    title: Code Of Ethics

@@ -1,0 +1,13 @@
+<p>
+{% for item in site.data.menus.policymenu %}
+  {% assign item_relative_url = "/" | append: item.url %}
+  {% if page.url == item_relative_url %}
+    <a href="{{ item.url | relative_url }}" style="text-decoration: underline;">{{ item. title }}</a>
+  {% else %}
+    <a href="{{ item.url | relative_url }}">{{ item. title }}</a>
+  {% endif %}
+  {% if forloop.last == false %}
+    |
+  {% endif %}
+{% endfor %}
+</p>

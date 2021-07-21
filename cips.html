@@ -7,23 +7,22 @@ title: CIPs
   <a href="https://gitter.im/FIXME/CIPs?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Gitter"></a>
   <a href="/last-call.xml"><img src="https://img.shields.io/badge/rss-Last Calls-red.svg" alt="RSS"></a>
 </h1>
-<p>Community Improvement Proposals (CIPs) describe standards for the Genesis platform, including core protocol specifications, client APIs, and contract standards.</p>
+<p>Community Improvement Proposals (CIPs) describe standards for the Genesis platform, including core protocol specifications, APIs, and contract standards.</p>
 
 <h2>Contributing</h2>
 <p>First review <a href="CIPS/cip-1">CIP-1</a>. Then clone the repository and add your CIP to it. There is a <a href="https://github.com/genesis-worlds/governance/blob/main/cip-template.md">template CIP here</a>. Then submit a Pull Request to Genesis's <a href="https://github.com/genesis-worlds/community">CIPs repository</a>.</p>
 
 <h2>CIP status terms</h2>
 <ul>
-  <li><strong>Draft</strong> - an CIP that is open for consideration and is undergoing rapid iteration and changes.</li>
-  <li><strong>Last Call</strong> - an CIP that is done with its initial iteration and ready for review by a wide audience.</li>
-  <li><strong>Accepted</strong> - a core CIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author. The process for Core Devs to decide whether to encode an CIP into their clients as part of a hard fork is not part of the CIP process. If such a decision is made, the CIP will move to final. </li>
-  <li><strong>Final (non-Core)</strong> - an CIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author.</li>
-  <li><strong>Final (Core)</strong> - an CIP that the Core Devs have decided to implement and release in a future hard fork or has already bZZeen released in a hard fork.</li>
+  <li><strong>Draft</strong> - a CIP that is open for consideration and is undergoing rapid iteration and changes.</li>
+  <li><strong>Last Call</strong> - a CIP that is done with its initial iteration and ready for review by a wide audience.</li>
+  <li><strong>Accepted</strong> - a core CIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author. The process for Core Devs to decide when and how to encode a CIP into the software is not part of the CIP process. If such a decision is made, the CIP will move to final. </li>
+  <li><strong>Final</strong> - a CIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author.</li>
 </ul>
 
 <h2>CIP Types</h2>
 
-<p>Community Improvement Proposals describe any change that affects most or all Genesis implementations, such as a change to the the community guidelines, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using Genesis. Furthermore CIPs can be broken down into the following categories.</p>
+<p>Community Improvement Proposals describe any change that affects most or all Genesis implementations, such as a change to the the community guidelines, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using Genesis. Furthermore CIPs can be broken down into the following four categories.</p>
 
 <h3><a href="{{"proposals/core"|relative_url}}">Core</a> ({{site.pages|where:"type","Core"|size}})</h3>
 <p>Improvements to the core community documents, requiring changes to a core community document, or adding a new core community document. The core commnuity documents can be found here: FIXME.</p>
@@ -31,23 +30,8 @@ title: CIPs
 <h3><a href="{{"proposals/governance"|relative_url}}">Governance</a> ({{site.pages|where:"type","Governance"|size}})</h3>
 <p>Includes improvements around governance for Genesis, including governance contracts, community organization, and foundation. They may propose an implementation, but not to Genesis's codebase; they often require community consensus; hey are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Genesis development.</p>
 
-<h3><a href="{{"proposals/grc"|relative_url}}">GRC</a> ({{site.pages|where:"type","GRC"|size}})</h3>
-<p>GRC (Genesis Request for Comment) are Application-level standards and conventions, including contract standards such as token standards for in-game items, software development standards, URI schemes, API standards, etc.</p>
+<h3><a href="{{"proposals/standards"|relative_url}}">Standards</a> ({{site.pages|where:"type","Standards"|size}})</h3>
+<p>Includes platform-level and application-level standards and conventions, including contract standards such as token standards for in-game items, software development standards, URI schemes, API standards, etc.</p>
 
-<h3><a href="{{"proposals/gamedev"|relative_url}}">Game Dev</a> ({{site.pages|where:"type","GameDev"|size}})</h3>
-<p>Describes a Genesis game design or development issue, across game mechanics, lore, art, etc. All Game Dev CIPs of this type are further split into sub-categories:</p>
-
-<h4><a href="{{"proposals/gamedev/gameplay"|relative_url}}">Gameplay</a> ({{site.pages|where:"type","GameDev"|where:"category","Gameplay"|size}})</h4>
-<p>Includes anything related to the gameplay of Genesis, whether it be core gameplay, or gameplay specific to a world or minigame.</p>
-
-<h4><a href="{{"proposals/gamedev/art"|relative_url}}">Art</a> ({{site.pages|where:"type","GameDev"|where:"category","Art"|size}})</h4>
-<p>Includes anything related to the art, graphics, or visual design of Genesis, whether it be environments, enemies, skins, or development tools & standards.</p>
-
-<h4><a href="{{"proposals/gamedev/lore"|relative_url}}">Lore</a> ({{site.pages|where:"type","GameDev"|where:"category","Lore"|size}})</h4>
-<p>Includes anything related to the lore, back-story, of Genesis, or its worlds.</p>
-
-<h4><a href="{{"proposals/gamedev/economy"|relative_url}}">Economy</a> ({{site.pages|where:"type","GameDev"|where:"category","Economy"|size}})</h4>
-<p>Includes anything related to the in-game economy of Genesis. Tokenomic discussions should be done as a <a href="{{"grc"|relative_url}}">GRC</a> instead.</p>
-
-<h4><a href="{{"proposals/gamedev/software"|relative_url}}">Software</a> ({{site.pages|where:"type","GameDev"|where:"category","Software"|size}})</h4>
-<p>Includes anything related to the software required to run the game of Genesis.</p>
+<h3><a href="{{"proposals/gamedev"|relative_url}}">GameDev</a> ({{site.pages|where:"type","GameDev"|size}})</h3>
+<p>Describes a Genesis game design or development issue, across game mechanics, lore, art, economy, software, etc.</p>

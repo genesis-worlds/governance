@@ -2,14 +2,14 @@
 cip: 1
 title: CIP Purpose and Guidelines
 status: Living
-type: Meta
-author: Martin Becze <mb@genesis.game>, Hudson Jameson <hudson@genesis.game>, et al.
-created: 2015-10-27
+type: Core
+author: Paul Barclay <paul@gamecredits.org>, Jen Dalby <jen@gamecredits.org>, et al.
+created: 2021-07-22
 ---
 
-## What is an CIP?
+## What is a CIP?
 
-CIP stands for Community Improvement Proposal. An CIP is a design document providing information to the Genesis community, or describing a new feature for Genesis or its processes or environment. The CIP should provide a concise technical specification of the feature and a rationale for the feature. The CIP author is responsible for building consensus within the community and documenting dissenting opinions.
+CIP stands for Community Improvement Proposal. A CIP is a design document providing information to the Genesis community, or describing a new feature for Genesis or its processes or environment. The CIP should provide a concise technical specification of the feature and a rationale for the feature. The CIP author is responsible for building consensus within the community and documenting dissenting opinions.
 
 ## CIP Rationale
 
@@ -19,31 +19,31 @@ For improvement implementers, CIPs are a convenient way to track the progress of
 
 ## CIP Types
 
-There are three types of CIP:
+There are four types of CIP:
 
 - A **Standards Track CIP** describes any change that affects most or all Genesis implementations, such as—a change to the network protocol, a change in block or transaction validity rules, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using Genesis. Standards Track CIPs consist of three parts—a design document, an implementation, and (if warranted) an update to the [formal specification]. Furthermore, Standards Track CIPs can be broken down into the following categories:
   - **Core**: improvements requiring a consensus fork (e.g. [CIP-5](./cip-5.md), [CIP-101](./cip-101.md)), as well as changes that are not necessarily consensus critical but may be relevant to [“core dev” discussions](https://github.com/FIXME/pm) (for example, [CIP-90], and the miner/node strategy changes 2, 3, and 4 of [CIP-86](./cip-86.md)).
   - **Networking**: includes improvements around [devp2p] ([CIP-8](./cip-8.md)) and [Light Genesis Subprotocol], as well as proposed improvements to network protocol specifications of [whisper] and [swarm].
-  - **Interface**: includes improvements around client [API/RPC] specifications and standards, and also certain language-level standards like method names ([CIP-6](./cip-6.md)) and [contract ABIs]. The label “interface” aligns with the [interfaces repo] and discussion should primarily occur in that repository before an CIP is submitted to the CIPs repository.
+  - **Interface**: includes improvements around client [API/RPC] specifications and standards, and also certain language-level standards like method names ([CIP-6](./cip-6.md)) and [contract ABIs]. The label “interface” aligns with the [interfaces repo] and discussion should primarily occur in that repository before a CIP is submitted to the CIPs repository.
   - **ERC**: application-level standards and conventions, including contract standards such as token standards ([ERC-20](./cip-20.md)), name registries ([ERC-137](./cip-137.md)), URI schemes, library/package formats, and wallet formats.
 
 - A **Meta CIP** describes a process surrounding Genesis or proposes a change to (or an event in) a process. Process CIPs are like Standards Track CIPs but apply to areas other than the Genesis protocol itself. They may propose an implementation, but not to Genesis's codebase; they often require community consensus; unlike Informational CIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Genesis development. Any meta-CIP is also considered a Process CIP.
 
 - An **Informational CIP** describes an Genesis design issue, or provides general guidelines or information to the Genesis community, but does not propose a new feature. Informational CIPs do not necessarily represent Genesis community consensus or a recommendation, so users and implementers are free to ignore Informational CIPs or follow their advice.
 
-It is highly recommended that a single CIP contain a single key proposal or new idea. The more focused the CIP, the more successful it tends to be. A change to one client doesn't require an CIP; a change that affects multiple clients, or defines a standard for multiple apps to use, does.
+It is highly recommended that a single CIP contain a single key proposal or new idea. The more focused the CIP, the more successful it tends to be. A change to one world doesn't require a CIP; a change that affects multiple worlds, or defines a standard for multiple apps to use, does.
 
-An CIP must meet certain minimum criteria. It must be a clear and complete description of the proposed enhancement. The enhancement must represent a net improvement. The proposed implementation, if applicable, must be solid and must not complicate the protocol unduly.
+A CIP must meet certain minimum criteria. It must be a clear and complete description of the proposed enhancement. The enhancement must represent a net improvement. The proposed implementation, if applicable, must be solid and must not complicate the protocol unduly.
 
 ## CIP Work Flow
 
-### Shepherding an CIP
+### Shepherding a CIP
 
 Parties involved in the process are you, the champion or *CIP author*, the [*CIP editors*](#cip-editors), and the [*Genesis Core Developers*](https://github.com/FIXME/pm).
 
 Before you begin writing a formal CIP, you should vet your idea. Ask the Genesis community first if an idea is original to avoid wasting time on something that will be rejected based on prior research. It is thus recommended to open a discussion thread on [the Genesis forum] to do this, but you can also use [one of the Genesis Gitter chat rooms], [the Genesis subreddit] or [the Issues section of this repository]. 
 
-Once the idea has been vetted, your next responsibility will be to present (by means of an CIP) the idea to the reviewers and all interested parties, invite editors, developers, and the community to give feedback on the aforementioned channels. You should try and gauge whether the interest in your CIP is commensurate with both the work involved in implementing it and how many parties will have to conform to it. For example, the work required for implementing a Core CIP will be much greater than for an ERC and the CIP will need sufficient interest from the Genesis client teams. Negative community feedback will be taken into consideration and may prevent your CIP from moving past the Draft stage.
+Once the idea has been vetted, your next responsibility will be to present (by means of a CIP) the idea to the reviewers and all interested parties, invite editors, developers, and the community to give feedback on the aforementioned channels. You should try and gauge whether the interest in your CIP is commensurate with both the work involved in implementing it and how many parties will have to conform to it. For example, the work required for implementing a Core CIP will be much greater than for an ERC and the CIP will need sufficient interest from the Genesis client teams. Negative community feedback will be taken into consideration and may prevent your CIP from moving past the Draft stage.
 
 ### Core CIPs
 
@@ -55,7 +55,7 @@ The AllCoreDevs call serve as a way for client implementers to do three things. 
 
 These calls generally result in a "rough consensus" around what CIPs should be implemented. This "rough consensus" rests on the assumptions that CIPs are not contentious enough to cause a network split and that they are technically sound.
 
-:warning: The CIPs process and AllCoreDevs call were not designed to address contentious non-technical issues, but, due to the lack of other ways to address these, often end up entangled in them. This puts the burden on client implementers to try and gauge community sentiment, which hinders the technical coordination function of CIPs and AllCoreDevs calls. If you are shepherding an CIP, you can make the process of building community consensus easier by making sure that [the Genesis forum](https://FIXME.org/) thread for your CIP includes or links to as much of the community discussion as possible and that various stakeholders are well-represented.
+:warning: The CIPs process and AllCoreDevs call were not designed to address contentious non-technical issues, but, due to the lack of other ways to address these, often end up entangled in them. This puts the burden on client implementers to try and gauge community sentiment, which hinders the technical coordination function of CIPs and AllCoreDevs calls. If you are shepherding a CIP, you can make the process of building community consensus easier by making sure that [the Genesis forum](https://FIXME.org/) thread for your CIP includes or links to as much of the community discussion as possible and that various stakeholders are well-represented.
 
 *In short, your role as the champion is to write the CIP using the style and format described below, shepherd the discussions in the appropriate forums, and build community consensus around the idea.* 
 
@@ -67,17 +67,17 @@ The following is the standardization process for all CIPs in all tracks:
 
 **Idea** - An idea that is pre-draft. This is not tracked within the CIP Repository.
 
-**Draft** - The first formally tracked stage of an CIP in development. An CIP is merged by an CIP Editor into the CIP repository when properly formatted.
+**Draft** - The first formally tracked stage of a CIP in development. A CIP is merged by a CIP Editor into the CIP repository when properly formatted.
 
-**Review** - An CIP Author marks an CIP as ready for and requesting Peer Review.
+**Review** - A CIP Author marks a CIP as ready for and requesting Peer Review.
 
-**Last Call** - This is the final review window for an CIP before moving to `FINAL`. An CIP editor will assign `Last Call` status and set a review end date (review-period-end), typically 14 days later.
+**Last Call** - This is the final review window for a CIP before moving to `FINAL`. A CIP editor will assign `Last Call` status and set a review end date (review-period-end), typically 14 days later.
 
 If this period results in necessary normative changes it will revert the CIP to `REVIEW`.
 
 **Final** - This CIP represents the final standard. A Final CIP exists in a state of finality and should only be updated to correct errata and add non-normative clarifications.
 
-**Stagnant** - Any CIP in `DRAFT` or `REVIEW` if inactive for a period of 6 months or greater is moved to `STAGNANT`. An CIP may be resurrected from this state by Authors or CIP Editors through moving it back to `DRAFT`.
+**Stagnant** - Any CIP in `DRAFT` or `REVIEW` if inactive for a period of 6 months or greater is moved to `STAGNANT`. A CIP may be resurrected from this state by Authors or CIP Editors through moving it back to `DRAFT`.
 
 >*CIP Authors are notified of any algorithmic change to the status of their CIP*
 
@@ -97,7 +97,7 @@ Each CIP should have the following parts:
 - Backwards Compatibility - All CIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The CIP must explain how the author proposes to deal with these incompatibilities. CIP submissions without a sufficient backwards compatibility treatise may be rejected outright.
 - Test Cases - Test cases for an implementation are mandatory for CIPs that are affecting consensus changes. Tests should either be inlined in the CIP as data (such as input/expected output pairs, or included in `../assets/cip-###/<filename>`.
 - Reference Implementation - An optional section that contains a reference/example implementation that people can use to assist in understanding or implementing this specification.
-- Security Considerations - All CIPs must contain a section that discusses the security implications/considerations relevant to the proposed change. Include information that might be important for security discussions, surfaces risks and can be used throughout the life-cycle of the proposal. E.g. include security-relevant design decisions, concerns, important discussions, implementation-specific guidance and pitfalls, an outline of threats and risks and how they are being addressed. CIP submissions missing the "Security Considerations" section will be rejected. An CIP cannot proceed to status "Final" without a Security Considerations discussion deemed sufficient by the reviewers.
+- Security Considerations - All CIPs must contain a section that discusses the security implications/considerations relevant to the proposed change. Include information that might be important for security discussions, surfaces risks and can be used throughout the life-cycle of the proposal. E.g. include security-relevant design decisions, concerns, important discussions, implementation-specific guidance and pitfalls, an outline of threats and risks and how they are being addressed. CIP submissions missing the "Security Considerations" section will be rejected. A CIP cannot proceed to status "Final" without a Security Considerations discussion deemed sufficient by the reviewers.
 - Copyright Waiver - All CIPs must be in the public domain. See the bottom of this CIP for an example copyright waiver.
 
 ## CIP Formats and Templates
@@ -166,17 +166,13 @@ The `resolution` header is required for Standards Track CIPs only. It contains a
 
 #### `discussions-to` header
 
-While an CIP is a draft, a `discussions-to` header will indicate the mailing list or URL where the CIP is being discussed. As mentioned above, an example of a place to discuss your CIP is [Genesis Forum](https://FIXME.org/) (this is suitable for CIPs that may be contentious or have a strong governance aspect).
+While a CIP is a draft, a `discussions-to` header will indicate the mailing list or URL where the CIP is being discussed. As mentioned above, an example of a place to discuss your CIP is [Genesis Discord](https://discord.gg/BgY8enPYBu) (this is suitable for CIPs that may be contentious or have a strong governance aspect).
 
 As an exception, `discussions-to` cannot point to GitHub pull requests.
 
 #### `type` header
 
-The `type` header specifies the type of CIP: Standards Track, Meta, or Informational. If the track is Standards please include the subcategory (core, networking, interface, or ERC).
-
-#### `category` header
-
-The `category` header specifies the CIP's category. This is required for standards-track CIPs only.
+The `type` header specifies the type of CIP: Core, Governance, Standards, or GameDev.
 
 #### `created` header
 
@@ -192,11 +188,11 @@ CIPs may have a `requires` header, indicating the CIP numbers that this CIP depe
 
 #### `superseded-by` and `replaces` headers
 
-CIPs may also have a `superseded-by` header indicating that an CIP has been rendered obsolete by a later document; the value is the number of the CIP that replaces the current document. The newer CIP must have a `replaces` header containing the number of the CIP that it rendered obsolete.
+CIPs may also have a `superseded-by` header indicating that a CIP has been rendered obsolete by a later document; the value is the number of the CIP that replaces the current document. The newer CIP must have a `replaces` header containing the number of the CIP that it rendered obsolete.
 
 ## Linking to other CIPs
 
-References to other CIPs should follow the format `CIP-N` where `N` is the CIP number you are referring to.  Each CIP that is referenced in an CIP **MUST** be accompanied by a relative markdown link the first time it is referenced, and **MAY** be accompanied by a link on subsequent references.  The link **MUST** always be done via relative paths so that the links work in this GitHub repository, forks of this repository, the main CIPs site, mirrors of the main CIP site, etc.  For example, you would link to this CIP with `[CIP-1](./cip-1.md)`.
+References to other CIPs should follow the format `CIP-N` where `N` is the CIP number you are referring to.  Each CIP that is referenced in a CIP **MUST** be accompanied by a relative markdown link the first time it is referenced, and **MAY** be accompanied by a link on subsequent references.  The link **MUST** always be done via relative paths so that the links work in this GitHub repository, forks of this repository, the main CIPs site, mirrors of the main CIP site, etc.  For example, you would link to this CIP with `[CIP-1](./cip-1.md)`.
 
 ## Auxiliary Files
 
@@ -204,24 +200,20 @@ Images, diagrams and auxiliary files should be included in a subdirectory of the
 
 ## Transferring CIP Ownership
 
-It occasionally becomes necessary to transfer ownership of CIPs to a new champion. In general, we'd like to retain the original author as a co-author of the transferred CIP, but that's really up to the original author. A good reason to transfer ownership is because the original author no longer has the time or interest in updating it or following through with the CIP process, or has fallen off the face of the 'net (i.e. is unreachable or isn't responding to email). A bad reason to transfer ownership is because you don't agree with the direction of the CIP. We try to build consensus around an CIP, but if that's not possible, you can always submit a competing CIP.
+It occasionally becomes necessary to transfer ownership of CIPs to a new champion. In general, we'd like to retain the original author as a co-author of the transferred CIP, but that's really up to the original author. A good reason to transfer ownership is because the original author no longer has the time or interest in updating it or following through with the CIP process, or has fallen off the face of the 'net (i.e. is unreachable or isn't responding to email). A bad reason to transfer ownership is because you don't agree with the direction of the CIP. We try to build consensus around a CIP, but if that's not possible, you can always submit a competing CIP.
 
-If you are interested in assuming ownership of an CIP, send a message asking to take over, addressed to both the original author and the CIP editor. If the original author doesn't respond to the email in a timely manner, the CIP editor will make a unilateral decision (it's not like such decisions can't be reversed :)).
+If you are interested in assuming ownership of a CIP, send a message asking to take over, addressed to both the original author and the CIP editor. If the original author doesn't respond to the email in a timely manner, the CIP editor will make a unilateral decision (it's not like such decisions can't be reversed :)).
 
 ## CIP Editors
 
 The current CIP editors are
 
-- Nick Johnson (@arachnid)
-- Casey Detrio (@cdetrio)
-- Hudson Jameson (@Souptacular)
-- Vitalik Buterin (@vbuterin)
-- Nick Savers (@nicksavers)
-- Martin Becze (@wanderer)
-- Greg Colvin (@gcolvin)
-- Alex Beregszaszi (@axic)
-- Micah Zoltu (@MicahZoltu)
-- Matt Garnett (@lightclient)
+- Paul Barclay (@barclander)
+- Jen Dalby (@injenuity)
+- Matt Quirk (@mquirk)
+- Josh Morton (@jmorton)
+- Chris Lovell (@chrislovell)
+- Brian Artiaco (@bartiaco)
 
 ## CIP Editor Responsibilities
 
@@ -235,7 +227,7 @@ If the CIP isn't ready, the editor will send it back to the author for revision,
 
 Once the CIP is ready for the repository, the CIP editor will:
 
-- Assign an CIP number (generally the PR number or, if preferred by the author, the Issue # if there was discussion in the Issues section of this repository about this CIP)
+- Assign a CIP number (generally the PR number or, if preferred by the author, the Issue # if there was discussion in the Issues section of this repository about this CIP)
 
 - Merge the corresponding pull request
 
@@ -247,11 +239,11 @@ The editors don't pass judgment on CIPs. We merely do the administrative & edito
 
 ## Style Guide
 
-When referring to an CIP by number, it should be written in the hyphenated form `CIP-X` where `X` is the CIP's assigned number.
+When referring to a CIP by number, it should be written in the hyphenated form `CIP-X` where `X` is the CIP's assigned number.
 
 ## History
 
-This document was derived heavily from [Bitcoin's BIP-0001] written by Amir Taaki which in turn was derived from [Python's PEP-0001]. In many places text was simply copied and modified. Although the PEP-0001 text was written by Barry Warsaw, Jeremy Hylton, and David Goodger, they are not responsible for its use in the Community Improvement Process, and should not be bothered with technical questions specific to Genesis or the CIP. Please direct all comments to the CIP editors.
+This document was derived heavily from [Ethereum's EIP-1], which was derived from [Bitcoin's BIP-0001] written by Amir Taaki which in turn was derived from [Python's PEP-0001]. In many places text was simply copied and modified. Although the PEP-0001 text was written by Barry Warsaw, Jeremy Hylton, and David Goodger, they are not responsible for its use in the Community Improvement Process, and should not be bothered with technical questions specific to Genesis or the CIP. Please direct all comments to the CIP editors.
 
 ### Bibliography
 

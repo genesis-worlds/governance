@@ -29,11 +29,11 @@ coremenu:
     title: Roadmap
 
 policymenu:
-  - url: terms
+  - url: resources/terms
     title: Terms of Service
-  - url: privacy
+  - url: resources/privacy
     title: Privacy Policy
-  - url: contentpolicy
+  - url: resources/contentpolicy
     title: Content Policy
-  - url: codeofethics
+  - url: resources/codeofethics
     title: Code Of Ethics

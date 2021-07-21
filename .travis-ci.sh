@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e # halt script on error
 
-HTMLPROOFER_OPTIONS="./_site --internal-domains=gov.genesis.game --check-html --check-opengraph --report-missing-names --log-level=:debug --assume-extension --empty-alt-ignore --timeframe=6w --url-ignore=/CIPS/cip-1,CIPS/cip-1,/CIPS/cip-107,/CIPS/cip-858"
+HTMLPROOFER_OPTIONS="./_site --internal-domains=gov.genesis.game --check-html --check-opengraph --report-missing-names --log-level=:debug --assume-extension --empty-alt-ignore --timeframe=6w --url-ignore=/cips/cip-1,cips/cip-1,/cips/cip-107,/cips/cip-858"
 
 if [[ $TASK = 'htmlproofer' ]]; then
   bundle exec jekyll doctor
@@ -19,7 +19,7 @@ elif [[ $TASK = 'cip-validator' ]]; then
     echo "only 'cip-template.md' should be in the root"
     exit 1
   fi
-  cipv CIPS/ --ignore=title_max_length,missing_discussions_to --skip=cip-20-token-standard.md
+  cipv cips/ --ignore=title_max_length,missing_discussions_to --skip=cip-20-token-standard.md
 elif [[ $TASK = 'codespell' ]]; then
   codespell -q4 -I .codespell-whitelist -S ".git,Gemfile.lock,**/*.png,**/*.gif,**/*.jpg,**/*.svg,.codespell-whitelist,vendor,_site,_config.yml,style.css"
 fi

@@ -1,3 +1,17 @@
+topmenu:
+  - url: /
+    title: Home
+  - url: core
+    title: Core
+  - url: governance
+    title: Governance
+  - url: cips
+    title: CIPs
+  - url: resources
+    title: Resources
+  - url: backlog
+    title: Backlog
+
 coremenu:
   - url: core
     title: Genesis Core Docs

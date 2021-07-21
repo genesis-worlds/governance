@@ -50,7 +50,7 @@ permalink: /:slug
 defaults:
   -
     scope:
-      path: "CIPS"
+      path: "cips"
     values:
       layout: "cip"
 
@@ -67,3 +67,8 @@ exclude:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
   - README.md
+
+collections:
+  proposals:
+    output: true
+    permalink: /cips/:slug

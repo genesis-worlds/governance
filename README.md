@@ -8,7 +8,7 @@ This site holds the code for the Genesis Metaverse governance hub. It includes t
 
 Community Improvement Proposals (CIPs) describe standards for the Genesis platform, including core protocol specifications, client APIs, and contract standards.
 
-**Before you initiate a pull request**, please read the [CIP-1](https://gov.gamecredits.org/CIPS/cip-1) process document. Ideas should be thoroughly discussed prior to opening a pull request, such as on the [Genesis forums](https://FIXME.org) or in a GitHub issue in this repository.
+**Before you initiate a pull request**, please read the [CIP-1](https://gov.gamecredits.org/cips/cip-1) process document. Ideas should be thoroughly discussed prior to opening a pull request, such as on the [Genesis forums](https://FIXME.org) or in a GitHub issue in this repository.
 
 This repository tracks the ongoing status of CIPs. It contains:
 
@@ -16,7 +16,7 @@ This repository tracks the ongoing status of CIPs. It contains:
 - [Last Call](https://gov.gamecredits.org/all#last-call) for proposals that may become final (see also [RSS feed](https://gov.gamecredits.org/last-call.xml)).
 - [Accepted](https://gov.gamecredits.org/all#accepted) proposals which are awaiting implementation or deployment by Genesis client developers.
 - [Final](https://gov.gamecredits.org/all#final) and [Active](https://gov.gamecredits.org/all#active) proposals that are recorded.
-- The [CIP process](./CIPS/cip-1.md#cip-work-flow) that governs the CIP repository.
+- The [CIP process](./cips/cip-1.md#cip-work-flow) that governs the CIP repository.
 
 Achieving "Final" status in this repository only represents that a proposal has been reviewed for technical accuracy. It is solely the responsibility of the reader to decide whether a proposal will be useful to them.
 
@@ -30,7 +30,7 @@ The Community Improvement Proposals repository exists as a place to share concre
 
 ## Preferred Citation Format
 
-The canonical URL for a CIP that has achieved draft status at any point is at https://gov.gamecredits.org/. For example, the canonical URL for CIP-1 is https://gov.gamecredits.org/CIPS/cip-1.
+The canonical URL for a CIP that has achieved draft status at any point is at https://gov.gamecredits.org/. For example, the canonical URL for CIP-1 is https://gov.gamecredits.org/cips/cip-1.
 
 Please consider anything which is not published on https://gov.gamecredits.org/ as a working paper.
 

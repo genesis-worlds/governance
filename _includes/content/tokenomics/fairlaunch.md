@@ -1,4 +1,4 @@
-<h3>Fair Launch Emissions</h3>
+<h2>Fair Launch Emissions</h2>
 <p>The only groups that will receive GENESIS tokens are the world owners, participants in governance, and the Genesis Foundation. There are zero (0) GENESIS set aside for:</p>
 <ul>
 <li>The Game Credits team</li>

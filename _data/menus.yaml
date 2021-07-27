@@ -1,8 +1,8 @@
 topmenu:
   - url: /
     title: Home
-  - url: core
-    title: Core
+  - url: vision
+    title: Vision
   - url: governance
     title: Governance
   - url: cips
@@ -13,19 +13,17 @@ topmenu:
     title: Backlog
 
 coremenu:
-  - url: core
-    title: Genesis Core Docs
-  - url: core/vision
-    title: Vision
-  - url: core/culture
+  - url: vision
+    title: Genesis Vision
+  - url: vision/culture
     title: Culture
-  - url: core/community
+  - url: vision/community
     title: Community
-  - url: core/tokenomics
+  - url: vision/tokenomics
     title: Tokenomics
-  - url: core/governance
+  - url: vision/governance
     title: Governance 
-  - url: core/roadmap
+  - url: vision/roadmap
     title: Roadmap
 
 policymenu:

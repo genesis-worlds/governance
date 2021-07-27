@@ -1,4 +1,4 @@
-<h3>GENESIS Tokenomics</h3>
+<h2>GENESIS Tokenomics</h2>
 <p><b>GENESIS (erc20)</b>: The GENESIS token is the fundamental building block of the Genesis metaverse. GENESIS is delivered using fair launch principles - it can be mined by holding World tokens, participating in governance, or creating and selling in-game NFTs. There are no special deals, and no tokens set aside for the team, advisors, or anyone else.</p>
 <p>The amount of GENESIS emitted is controlled by the number of world tokens owned and the length of time the world tokens are held. There is no end date for the emission of GENESIS, but the emission follows a logarithmic curve, and so emissions reduce naturally over time.</p>
 <p>The number of world tokens bought is likewise controlled by the available supply of GAME and the price curve of the worlds - since each world token costs more than the last, this limits the available supply of GENESIS.</p>

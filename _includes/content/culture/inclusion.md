@@ -1,0 +1,2 @@
+<h2>Inclusion</h2>
+<p>The third pillar of Genesis culture is inclusion - a broad base of diverse members will create a more vibrant and exciting community. Genesis needs a constant influx of new community members, who believe in the Genesis vision, and take on progressively more responsibility. We’re all responsible for recruiting new community members, and ensuring that they know their way around, know the culture, and get involved.</p>

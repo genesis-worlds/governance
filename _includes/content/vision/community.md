@@ -1,1 +1,2 @@
-<p>Community TBD here FIXME</p>
+
+<p>There hasn’t ever been a startup, game, metaverse, defi, or nft project quite like Genesis. A decentralized game, developed by community members, that will still be around 100 years in the future. When we’re creating something like Genesis, we have to start thinking differently. Genesis encompasses a lot of things: Community, startup, game, metaverse, defi, nft, culture, vision, IP, software, and more. So where should we start? With the “why” and the “how” - the vision, the culture, and the community.</p>

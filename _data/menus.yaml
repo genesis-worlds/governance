@@ -17,10 +17,10 @@ coremenu:
     title: Genesis Core Docs
   - url: core/vision
     title: Vision
-  - url: core/principles
-    title: Principles
-  - url: core/philosophy
-    title: Philosophy
+  - url: core/culture
+    title: Culture
+  - url: core/community
+    title: Community
   - url: core/tokenomics
     title: Tokenomics
   - url: core/governance

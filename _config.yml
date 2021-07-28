@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Genesis Governance
+title: Genesis Hub
 description: >-
-  Governance, Community Resources, and Community Improvement Proposals (CIPs) for the Genesis Metaverse.
-url: "https://gov.gamecredits.org"
+  Governance, Community Resources, and Community Improvement Proposals (CIPs) for the Genesis Multicreator Gaming Universe.
+url: "https://hub.gamecredits.org"
 social:
   twitter: gamecredits
   github: genesis-worlds

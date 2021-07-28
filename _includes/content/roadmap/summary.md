@@ -1,1 +1,1 @@
-<p>Roadmap summary goes here</p>
+<p>This roadmap guides our development efforts, to help the whole community pull together and work on what's most important.</p>

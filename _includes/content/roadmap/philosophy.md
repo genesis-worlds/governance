@@ -1,1 +1,4 @@
 <h2>Roadmap Philosophy</h2>
+<p>We're approaching Genesis development from an Agile perspective. While Agile processes don't map well onto a massively distributed team, the base philosophies still hold. We have a strong vision for where we want to go. But we know we'll learn new things as we go, and our vision will adjust. When that happens, the roadmap will adjust too. This is a good thing, especially when for a community-driven project.</p>
+<p>So, this roadmap is very much a living document. More than any other project, it will change based on input, learning, and other factors, both within and outside our control.</p>
+<p>For that reason, phases 2-4 are only lightly described, and do not have dates attached. As we get closer to the end of a phase, we'll make the roadmap for the next phases more granular. We will likely break phases down into smaller phases. We will also begin to post a "what are we working on now" list </p>

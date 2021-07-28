@@ -1,1 +1,5 @@
-Community
+<h2>Community Governance</h2>
+<p>The Genesis community has a strong say in governance. In many ways, Genesis is a "do-ocracy" - if you want to make something happen, you just do it, and it happens. For more impactful requests, changes, and suggestions, the community has many more tools at their disposal.</p>
+<p>At the simplest level, community members can band together to get general agreement on a topic, and request that the Foundation or other developers implement it.</p>
+<p>For cases where more formal process is required, Community Improvement Proposals can be discussed, agreed on, and finalized, giving the weight of the whole community to the proposal.</p>
+<p>And, at the most firm level, the community can call on-chain or off-chain governance votes to rally wide support around an issue.</p>

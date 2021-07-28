@@ -1,1 +1,2 @@
-Voting
+<h2>Voting</h2>
+<p>For cases where a more formal vote needs to be taken, there are two options. First, and simplest, are non-binding votes on <a href="https://www.snapshot.org" target="_blank">Snapshot.org</a>. Secondly, binding on-chain votes are performed through the <a href="{{"governance"|relative_url}}">Governance portal</a>.</p>

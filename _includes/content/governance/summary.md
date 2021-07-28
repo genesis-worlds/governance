@@ -1,0 +1,3 @@
+
+<p>This <a href={{"/"|relative_url}} >Genesis Hub</a> site holds both the up-to-date vision for the entire Genesis project, and the governance procedures and tools to make changes to that vision. Any community member can make a proposal, and, with enough support, make a fundamental change to any part of Genesis.</p>
+<p>This site also holds the process, tools, and techniques for <a href={{"governance"|relative_url}} >Genesis governance</a>, and the full process and current status of every <a href={{"cips"|relative_url}} >Community Improvement Proposal</a>.</p>

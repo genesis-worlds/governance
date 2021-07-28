@@ -19,10 +19,10 @@ coremenu:
     title: Culture
   - url: vision/community
     title: Community
-  - url: vision/tokenomics
-    title: Tokenomics
   - url: vision/governance
     title: Governance 
+  - url: vision/tokenomics
+    title: Tokenomics
   - url: vision/roadmap
     title: Roadmap
 

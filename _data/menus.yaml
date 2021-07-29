@@ -9,8 +9,6 @@ topmenu:
     title: CIPs
   - url: resources
     title: Resources
-  - url: backlog
-    title: Backlog
 
 coremenu:
   - url: vision

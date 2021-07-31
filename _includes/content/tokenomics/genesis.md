@@ -4,7 +4,7 @@
 <p>GENESIS can also be earned through staking GENESIS in the governance portal. This incentivizes the community to participate in governance, and also to think long-term about the project. The earned GENESIS will be split among all governance portal members. Earning through governance starts four weeks after the first world sale.</p>
 <p>The amount of GENESIS emitted through mining and governance is limited by the number of World Stakes owned and the length of time the World Stakes are held. There is no end date for the emission of GENESIS, but the emission follows a logarithmic curve, and so emissions reduce naturally over time.</p>
 <p>Given the amount of GAME available, the limit on the number of Worlds, and the bonding curves, there's an absolute cap of just over 2Bn GENESIS created over the first 100 years. However, the expected amount is significantly less.</p>
-<p>In addition, we are reserving 2.5% of that absolute cap (50M GENESIS) to incetivise liquidity providers on decentralized exchanges. This will be locked into a smart contract before the World sale.</p>
+<p>In addition, we are reserving 5% of that absolute cap (100M GENESIS) to incetivise the community to provide liquidity on decentralized exchanges. This will be locked into smart contracts. It will not be used for listing fees on centralized exchanges.</p>
 <p>If we assume that 25% of the total amount of GAME (50M GAME) will be locked up into World tokens, the chart below shows that roughly 800 million GENESIS will be emitted over the first 20 years of the project. 40% of this GENESIS is emitted to world token owners, 20% to governance participants, and the remaining 40% to the foundation.</p>
 
 <img src={{"assets/images/genesis_emission_chart.png"|relative_url}}>

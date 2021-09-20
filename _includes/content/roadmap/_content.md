@@ -1,4 +1,3 @@
-<h1 class="page-heading">Roadmap</h1>
 {% include content/roadmap/summary.md %}
 {% include content/roadmap/philosophy.md %}
 {% include content/roadmap/phase_0.md %}

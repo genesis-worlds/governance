@@ -1,2 +1,2 @@
-<h2>In-Game Item Tokenomics</h2>
+<h3>In-Game Item Tokenomics</h3>
 <p><b>Items</b>: Other in-game items are NFTs that can be bought and sold in GENESIS. These can be bonded (erc1155) or normal (erc721) items, or use new standards that have yet to be identified. In general, 90% of the purchase price goes to the item’s creator (or is split between groups of creators), and 10% goes to the foundation to fund continued development.</p>

@@ -1,2 +1,2 @@
-<h2>Community Improvement Proposals (CIPs)</h2>
+<h3>Community Improvement Proposals (CIPs)</h3>
 <p>This <a href={{"/"|relative_url}} >Genesis Hub</a> site holds both the up-to-date vision for the entire Genesis project, and the governance tools to make changes to that vision. Any community member can make a proposal, and, with enough support, make a fundamental change to any part of Genesis.</p>

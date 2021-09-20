@@ -1,4 +1,4 @@
-<h2>Fair Launch Emissions</h2>
+<h3>Fair Launch Emissions</h3>
 <p>All distributions of tokens are done using a fair launch model, with no tokens set aside for the team, investors, advisors, whales, exchanges, etc. The only way to acquire GENESIS, World Stakes, or Land is to pay market price.</p>
 <p>The only groups that will receive GENESIS are the world owners, participants in governance, and the Genesis Foundation, to drive ongoing development, and liquidity providers on decentralized exchanges, to ensure a smooth market for GENESIS. There are zero (0) GENESIS set aside for:</p>
 <ul>

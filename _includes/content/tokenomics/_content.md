@@ -1,4 +1,3 @@
-<h1 class="page-heading">Tokenomics</h1>
 {% include content/tokenomics/summary.md %}
 {% include content/tokenomics/tokenflow.md %}
 {% include content/tokenomics/fairlaunch.md %}

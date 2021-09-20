@@ -1,4 +1,4 @@
-<h2>GENESIS Tokenomics</h2>
+<h3>GENESIS Tokenomics</h3>
 <p><b>GENESIS (erc20)</b>: The GENESIS erc20 token is the fundamental building block of the Genesis Multicreator Gaming Universe. GENESIS is delivered using fair launch principles - it can only be mined by holding World Stakes, or earned by participating in governance or liquidity. There are no special deals, and no tokens set aside for the team, advisors, or anyone else.</p>
 <p>To mine GENESIS, simply hold one or more World Stakes in your eth address. The longer you hold the World Stakes, the more GENESIS you'll mine. GENESIS mining starts one week after the first world sale.</p>
 <p>GENESIS can also be earned through staking GENESIS in the governance portal. This incentivizes the community to participate in governance, and also to think long-term about the project. The earned GENESIS will be split among all governance portal members. Earning through governance starts four weeks after the first world sale.</p>

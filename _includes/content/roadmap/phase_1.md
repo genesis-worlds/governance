@@ -1,4 +1,4 @@
-<h2>Phase 1: Pre-production</h2>
+<h3>Phase 1: Pre-production</h3>
 <p><i>Q1-Q2, 2022</i></p>
 <p>This phase marks the start of prototyping and pre-production, and serious community involvement in game, content, and tools development.</p>
 <ul>

@@ -1,3 +1,3 @@
-<h2>Community</h2>
+<h3>Community</h3>
 <p>And that’s where the true vision of Genesis lies. It’s not about the excellent gameplay, or the easy-to-use creator tools, or buying and selling NFTs. It’s about being part of a community that’s coming together to create something truly unique, something that will last for generations.</p>
 <p>There hasn’t ever been a startup, game, metaverse, defi, or nft project quite like Genesis. A decentralized game, developed by community members, that will still be around 100 years in the future. When we’re creating something like Genesis, we have to start thinking differently. Genesis encompasses a lot of things: Community, startup, game, metaverse, defi, nft, culture, vision, IP, software, and more. So where should we start? With the “why” and the “how” - the vision, the culture, and the community.</p>

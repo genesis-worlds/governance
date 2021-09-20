@@ -1,4 +1,4 @@
-<h2>Phase 4: Live Operations</h2>
+<h3>Phase 4: Live Operations</h3>
 <p>This phase marks the broad launch of Genesis as a viable mobile and desktop gaming experience. </p>
 
 <ul>

@@ -1,4 +1,4 @@
-<h2>GENESIS Token Launch</h2>
+<h3>GENESIS Token Launch</h3>
 <p>Of the 2 billion expected total supply of GENESIS, 100 million, or 5%, will be set aside to drive exchange liquidity and initial community ownership. The remainder will be released over time to World stake holders and Governance stakers.</p>
 <p><b>Liquidity Launch</b>50,000,000 GENESIS will be used to create  and incentivize initial liquidity in a GENESIS-GAME pair on QuickSwap (Polygon). Half will provide the initial pool, in conjunction with 250k GAME. The other half will be used as liquidity incentives for that pool, encouraging the community to keep the pool large enough to support high trade volumes. Because QuickSwap pools are all linked, this pool allows you to buy GENESIS using any token you own.</p>
 <p>The liquidity incentives are designed to deliver a steady rate of 250% to 300% APR, and will last for 3 to 9 months, depending on the amount of GENESIS added to the pool.</p>

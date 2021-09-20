@@ -1,0 +1,6 @@
+<h3>Land Tokenomics</h3>
+<p><b>Land Deeds (erc721)</b>: Land Deeds are NFTs that allow their owners to build structures and host events. Land Deeds are bought in GENESIS, and are available for a fixed timeframe. Half of the GENESIS spent on Land is burned, reducing the supply of GENESIS. The other half is granted to world owners for that world, over a 2-year period. In addition, world owners will receive one Land per world share at the time of the land sale, and the Foundation will own an equivalent amount of land, to be used for community buildings, events, and supporting top creators.</p>
+<p>The Foundation will not receive any GENESIS from the land sale; the land sale contract will burn 50% of all GENESIS received in the land sale. The remaining 50% will be distributed to the world-owners for that world.</p>
+
+<h3>In-Game Item Tokenomics</h3>
+<p><b>Items</b>: Other in-game items are NFTs that can be bought and sold in GENESIS. These can be bonded (erc1155) or normal (erc721) items, or use new standards that have yet to be identified. In general, 90% of the purchase price goes to the item’s creator (or is split between groups of creators), and 10% goes to the foundation to fund continued development.</p>

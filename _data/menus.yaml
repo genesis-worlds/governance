@@ -9,6 +9,8 @@ topmenu:
     title: CIPs
   - url: resources
     title: Resources
+  - url: whitepaper
+    title: White Paper
 
 coremenu:
   - url: vision
@@ -18,7 +20,7 @@ coremenu:
   - url: vision/community
     title: Community
   - url: vision/governance
-    title: Governance 
+    title: Governance
   - url: vision/tokenomics
     title: Tokenomics
   - url: vision/roadmap

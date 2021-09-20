@@ -1,2 +1,0 @@
-<h3>Creativity</h3>
-<p>The first pillar of Genesis culture is Creativity. Genesis, as a game, as a metaverse, as an IP, will never stop growing, changing, and evolving with the times. And the creativity of the Genesis community is what will keep it fresh, new, and exciting. To support that growth, we must all foster a creative environment where new ideas are celebrated, implemented, and enjoyed.</p> 

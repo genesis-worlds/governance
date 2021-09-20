@@ -1,2 +1,0 @@
-<p>Genesis is a multicreator gaming universe, with a diverse community working together to achieve a common goal: A metaverse that will still be growing, evolving, and actively played in 100 years.</p>
-<p>To achieve this, development and management of Genesis will be decentralized, with governance decisions guided by the Genesis Foundation, and voted on by players using the GENESIS token. Genesis will run as a nonprofit, with all assets owned by and revenue earned by the Genesis Foundation reinvested in the long-term success of the game.</p>

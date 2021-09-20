@@ -1,3 +1,0 @@
-<p>The Genesis community is made up of a vast range of creators, makers, developers, and more. Everyone has their own experience and skills, and we all work together to deliver a game that’s out of this world.</p>
-<p>To grow the community, we’ll encourage forming and running small groups, provide them with tools, resources, and communication channels.</p>
-<p>Community groups inside Genesis could include game dev students, groups of friends, indie developers, artist collectives, or even complete strangers (the internet is a wonderful place).</p>

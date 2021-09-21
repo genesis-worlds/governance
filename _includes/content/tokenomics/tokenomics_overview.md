@@ -2,8 +2,8 @@
 <p>This self-funding will continue until Genesis gets off the ground and can use its own funds to become self-sustaining. The money required for ongoing development is generated through mining the GENESIS token, and delivered to the not-for-profit Genesis Foundation, who will use it to best drive the long-term success of the game.</p>
 
 <h3>Tokenomics 101</h3>
-<p>Genesis runs on two tokens: GENESIS Tokens (erc20), for governing the entire game, and powering the economy, and World Stakes (erc1155 NFTs), for governing individual worlds within the game.</p>
-<p>Each World will be represented by a group of World Stakes, with each stake represented by a 3d model of the world itself. Holding World Stakes over time allow their owners to participate in world governance, own Land within the World, and mine GENESIS erc20 tokens. The more World Stakes you own, and the longer you hold them for, the more GENESIS you mine.</p>
+<p>Genesis runs on two tokens: GENESIS Tokens (ERC-20), for governing the entire game, and powering the economy, and World Stakes (erc1155 NFTs), for governing individual worlds within the game.</p>
+<p>Each World will be represented by a group of World Stakes, with each stake represented by a 3d model of the world itself. Holding World Stakes over time allow their owners to participate in world governance, own Land within the World, and mine GENESIS ERC-20 tokens. The more World Stakes you own, and the longer you hold them for, the more GENESIS you mine.</p>
 <p>GENESIS Tokens are the governance and economic token for Genesis, allowing holders to guide the direction of the universe, and make transactions within the game. GENESIS holders also benefit from activity in the Genesis universe, such as burning GENESIS during Land sales, as well as buying and selling in-game items, NFTs, and access to in-game events.</p>
 <p>GENESIS can only be mined by holders of World Stakes, and earned by participating in governance or providing liquidity. This is a 100% fair launch model, with no special deals, discounts, or special treatment for whales, and no tokens set aside for the team, advisors, or anyone else.</p>
 

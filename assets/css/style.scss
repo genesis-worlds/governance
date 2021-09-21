@@ -71,3 +71,12 @@ body {
 .footer-heading {
   display: none;
 }
+
+.team-grid {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  .team-column {
+    flex: 1;
+  }
+}

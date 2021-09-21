@@ -6,7 +6,7 @@
 <p>For that reason, phases 2-4 are only lightly described, and do not have dates attached. As we get closer to the end of a phase, we'll make the roadmap for the next phases more granular. We will likely break phases down into smaller phases. We will also begin to post a "what are we working on now" list </p>
 
 <h3>Phase 0</h3>
-<p><i>Q3-Q4, 2021</i></p>
+<h4><i>Q3-Q4, 2021</i></h4>
 <p>This phase is all about getting set up, and launching the core pieces of the Genesis ecosystem: Contracts, Community, and World Stakes.</p>
 <ul>
 <li>Smart contracts & core tech</li>
@@ -17,7 +17,7 @@
 </ul>
 
 <h3>Phase 1: Pre-production</h3>
-<p><i>Q1-Q2, 2022</i></p>
+<h4><i>Q1-Q2, 2022</i></h4>
 <p>This phase marks the start of prototyping and pre-production, and serious community involvement in game, content, and tools development.</p>
 <ul>
 <li>Gameplay exploration & prototyping</li>

@@ -1,15 +1,15 @@
-<p>
-{% for item in site.data.menus.coremenu %}
+<h4>
+  {% for item in site.data.menus.coremenu %}
   {% assign item_relative_url = "/" | append: item.url %}
   {% if page.url == item_relative_url %}
-    <a href="{{ item.url | relative_url }}" style="text-decoration: underline;">{{ item. title }}</a>
+  <a href="{{ item.url | relative_url }}" style="text-decoration: underline;">{{ item. title }}</a>
   {% else %}
-    <a href="{{ item.url | relative_url }}">{{ item. title }}</a>
+  <a href="{{ item.url | relative_url }}">{{ item. title }}</a>
   {% endif %}
   {% if forloop.first == true %}
-    :
+  :
   {% elsif forloop.last == false %}
-    |
+  |
   {% endif %}
-{% endfor %}
-</p>
+  {% endfor %}
+</h4>

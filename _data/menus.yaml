@@ -1,6 +1,4 @@
 topmenu:
-  - url: /
-    title: Home
   - url: vision
     title: Vision
   - url: governance

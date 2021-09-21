@@ -80,3 +80,13 @@ body {
     flex: 1;
   }
 }
+
+.full-image {
+  width: 800px;
+  margin-bottom: 16px;
+  @media screen and (max-width: 800px) {
+    margin: 0 0 16px -16px;
+    width: 100vw;
+    max-width: 800px;
+  }
+}

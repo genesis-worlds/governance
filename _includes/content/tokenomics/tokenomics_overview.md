@@ -8,8 +8,8 @@
 <p>GENESIS can only be mined by holders of World Stakes, and earned by participating in governance or providing liquidity. This is a 100% fair launch model, with no special deals, discounts, or special treatment for whales, and no tokens set aside for the team, advisors, or anyone else.</p>
 
 <h3>Token Flows</h3>
-<p>This is a Bad Diagram™ that shows the flows of tokens across all aspects of Genesis. The actual diagram should include the amounts for all the flows, etc. And should not be ugly.</p>
-<img class="full-image" src={{"assets/images/token_flow_chart.png"|relative_url}} />
+<p>This diagram shows the flows of tokens across all aspects of Genesis, showing the ways you can earn GENESIS - farming with GAME, holding World Stakes, in Governance, and via Land sales.</p>
+<object type="image/svg+xml" class="full-image" data={{"assets/images/genesis_flow_chart.svg"|relative_url}}></object>
 <p></p>
 
 <h3>Fair Launch Emissions</h3>

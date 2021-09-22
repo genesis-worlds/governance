@@ -9,7 +9,7 @@
 
 <h3>Token Flows</h3>
 <p>This diagram shows the flows of tokens across all aspects of Genesis, showing the ways you can earn GENESIS - farming with GAME, holding World Stakes, in Governance, and via Land sales.</p>
-<object type="image/svg+xml" class="full-image" data={{"assets/images/genesis_flow_chart.svg"|relative_url}}></object>
+<object type="image/svg+xml" class="full-image" data={{"assets/images/genesis_flow_chart.svg"|relative_url}} alt="Diagram showing all the ways you can earn and use GENESIS"></object>
 <p></p>
 
 <h3>Fair Launch Emissions</h3>

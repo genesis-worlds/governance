@@ -1,7 +1,7 @@
 <h3>GENESIS Tokenomics</h3>
 <p><b>GENESIS (ERC-20)</b>: The GENESIS ERC-20 token is the fundamental building block of the Genesis Multicreator Gaming Universe. GENESIS is delivered using fair launch principles - every GENESIS will be delivered to the community, whether by farming, mining via World Stakes, or earned by participating in governance, liquidity, or content development. There are no special deals, and no tokens set aside for the team, advisors, or anyone else. You can see the split here:</p>
 
-<img class="full-image" src={{"assets/images/genesis_emission_split.svg"|relative_url}}>
+<img class="full-image" src={{"assets/images/genesis_emission_split.svg"|relative_url}} alt="Chart showing the split of GENESIS emissions among all recipients">
 
 <p>To farm GENESIS, stake GAME in the farming contract. The longer you stake your GAME, the more GENESIS you'll farm. 50M GENESIS is set aside for this purpose.</p>
 <p>To mine GENESIS, simply hold one or more World Stakes in your eth address. The longer you hold the World Stakes, the more GENESIS you'll mine. GENESIS mining starts one week after the first world sale.</p>
@@ -9,7 +9,7 @@
 <p>The amount of GENESIS emitted through mining and governance is limited by the number of World Stakes owned and the length of time the World Stakes are held. There is no end date for the emission of GENESIS, but the emission follows a logarithmic curve, and so emissions reduce naturally over time.</p>
 <p>Given the amount of GAME available, the limit on the number of Worlds, and the bonding curves, the expected total supply of GENESIS created over the first 100 years is 1 billion GENESIS.</p>
 
-<img class="full-image" src={{"assets/images/genesis_emission_chart.svg"|relative_url}}>
+<img class="full-image" src={{"assets/images/genesis_emission_chart.svg"|relative_url}} alt="Chart showing emission of GENESIS over time">
 
 <p>The Foundation will not burn the GENESIS it owns. But, it will most likely escrow and time-lock large portions of that GENESIS to reduce circulating supply, and maintain resources for the long term. The mechanics of this time lock will be left up to the Foundation and the community, and may change over time.</p>
 

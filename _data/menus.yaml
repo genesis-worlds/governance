@@ -33,3 +33,5 @@ policymenu:
     title: Content Policy
   - url: resources/codeofethics
     title: Code Of Ethics
+  - url: resources/legal
+    title: Legal Notice

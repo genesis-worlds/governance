@@ -9,7 +9,7 @@
   {%- if site.social.twitter -%}
     <li>
       <a href="https://twitter.com/{{ site.social.twitter| cgi_escape | escape }}" target="_blank">
-        <svg class="svg-icon" alt=""><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> <span class="username">{{ "@" | append: site.social.twitter| escape }}</span>
+        <svg class="svg-icon" alt=""><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> <span class="username">{{ twitter }}</span>
       </a>
     </li>
   {%- endif -%}

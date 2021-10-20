@@ -1,12 +1,12 @@
 <h3>GENESIS Tokenomics</h3>
-<p><b>GENESIS (ERC-20)</b>: The GENESIS ERC-20 token is the fundamental building block of the Genesis Multicreator Gaming Universe. GENESIS is delivered using fair launch principles - every GENESIS will be delivered to the community, whether by farming, mining via World Stakes, or earned by participating in governance, liquidity, or content development. There are no special deals, and no tokens set aside for the team, advisors, or anyone else. You can see the split here:</p>
+<p><b>GENESIS (ERC-20)</b>: The GENESIS ERC-20 token is the fundamental building block of the Genesis Multicreator Gaming Universe. GENESIS is delivered using fair launch principles - every GENESIS will be delivered to the community, whether by farming, mining via World Shards, or earned by participating in governance, liquidity, or content development. There are no special deals, and no tokens set aside for the team, advisors, or anyone else. You can see the split here:</p>
 
 <img class="full-image" src={{"assets/images/genesis_emission_split.svg"|relative_url}} alt="Chart showing the split of GENESIS emissions among all recipients">
 
 <p>To farm GENESIS, stake GAME in the farming contract. The longer you stake your GAME, the more GENESIS you'll farm. 50M GENESIS is set aside for this purpose.</p>
-<p>To mine GENESIS, simply hold one or more World Stakes in your eth address. The longer you hold the World Stakes, the more GENESIS you'll mine. GENESIS mining starts one week after the first world sale.</p>
+<p>To mine GENESIS, simply hold one or more World Shards in your eth address. The longer you hold the World Shards, the more GENESIS you'll mine. GENESIS mining starts one week after the first world sale.</p>
 <p>GENESIS can also be earned through staking GENESIS in the governance portal. This incentivizes the community to participate in governance, and also to think long-term about the project. The earned GENESIS will be split among all governance portal members. Earning through governance starts four weeks after the first world sale.</p>
-<p>The amount of GENESIS emitted through mining and governance is limited by the number of World Stakes owned and the length of time the World Stakes are held. There is no end date for the emission of GENESIS, but the emission follows a logarithmic curve, and so emissions reduce naturally over time.</p>
+<p>The amount of GENESIS emitted through mining and governance is limited by the number of World Shards owned and the length of time the World Shards are held. There is no end date for the emission of GENESIS, but the emission follows a logarithmic curve, and so emissions reduce naturally over time.</p>
 <p>Given the amount of GAME available, the limit on the number of Worlds, and the bonding curves, the expected total supply of GENESIS created over the first 100 years is 1 billion GENESIS.</p>
 
 <img class="full-image" src={{"assets/images/genesis_emission_chart.svg"|relative_url}} alt="Chart showing emission of GENESIS over time">
@@ -14,7 +14,7 @@
 <p>The Foundation will not burn the GENESIS it owns. But, it will most likely escrow and time-lock large portions of that GENESIS to reduce circulating supply, and maintain resources for the long term. The mechanics of this time lock will be left up to the Foundation and the community, and may change over time.</p>
 
 <h3>GENESIS Token Launch</h3>
-<p>Of the 1 billion expected total supply of GENESIS, 50 million, or 5%, will be set aside for the initial GENESIS farming pool.Another 50 million will be set aside to drive decentralized exchange liquidity, reward early community members. The remainder will be released over time to World stake holders and Governance stakers.</p>
+<p>Of the 1 billion expected total supply of GENESIS, 50 million, or 5%, will be set aside for the initial GENESIS farming pool.Another 50 million will be set aside to drive decentralized exchange liquidity, reward early community members. The remainder will be released over time to World Shard holders and Governance stakers.</p>
 <p><b>GENESIS Farming</b>: 50 million GENESIS will be placed in a pool, where community members can stake GAME to earn GENESIS. </p>
 
 <p><b>Liquidity Incentives</b>: 10 million GENESIS will be used to create and incentivize initial liquidity in a GENESIS-USDC pair on QuickSwap (Polygon), providing both a small initial pool amount, and a larger liquidity incentive for that pool, encouraging the community to keep the pool large enough to support high trade volumes. Because QuickSwap pools are all linked, this pool allows you to buy GENESIS using any token you own.</p>

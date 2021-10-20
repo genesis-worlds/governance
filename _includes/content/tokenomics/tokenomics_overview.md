@@ -2,18 +2,18 @@
 <p>This self-funding will continue until Genesis gets off the ground and can use its own funds to become self-sustaining. The money required for ongoing development is generated through mining the GENESIS token, and delivered to the not-for-profit Genesis Foundation, who will use it to best drive the long-term success of the game.</p>
 
 <h3>Tokenomics 101</h3>
-<p>Genesis runs on two tokens: GENESIS Tokens (ERC-20), for governing the entire game, and powering the economy, and World Stakes (erc1155 NFTs), for governing individual worlds within the game.</p>
-<p>Each World will be represented by a group of World Stakes, with each stake represented by a 3d model of the world itself. Holding World Stakes over time allow their owners to participate in world governance, own Land within the World, and mine GENESIS ERC-20 tokens. The more World Stakes you own, and the longer you hold them for, the more GENESIS you mine.</p>
+<p>Genesis runs on two tokens: GENESIS Tokens (ERC-20), for governing the entire game, and powering the economy, and World Shards (erc1155 NFTs), for governing individual worlds within the game.</p>
+<p>Each World will be represented by a group of World Shards, with each Shard represented by a 3d model of the world itself. Holding World Shards over time allow their owners to participate in world governance, own Land within the World, and mine GENESIS ERC-20 tokens. The more World Shards you own, and the longer you hold them for, the more GENESIS you mine.</p>
 <p>GENESIS Tokens are the governance and economic token for Genesis, allowing holders to guide the direction of the universe, and make transactions within the game. GENESIS holders also benefit from activity in the Genesis universe, such as burning GENESIS during Land sales, as well as buying and selling in-game items, NFTs, and access to in-game events.</p>
-<p>GENESIS can only be mined by holders of World Stakes, and earned by participating in governance or providing liquidity. This is a 100% fair launch model, with no special deals, discounts, or special treatment for whales, and no tokens set aside for the team, advisors, or anyone else.</p>
+<p>GENESIS can only be mined by holders of World Shards, and earned by participating in governance or providing liquidity. This is a 100% fair launch model, with no special deals, discounts, or special treatment for whales, and no tokens set aside for the team, advisors, or anyone else.</p>
 
 <h3>Token Flows</h3>
-<p>This diagram shows the flows of tokens across all aspects of Genesis, showing the ways you can earn GENESIS - farming with GAME, holding World Stakes, in Governance, and via Land sales.</p>
+<p>This diagram shows the flows of tokens across all aspects of Genesis, showing the ways you can earn GENESIS - farming with GAME, holding World Shards, in Governance, and via Land sales.</p>
 <object type="image/svg+xml" class="full-image" data={{"assets/images/genesis_flow_chart.svg"|relative_url}} alt="Diagram showing all the ways you can earn and use GENESIS"></object>
 <p></p>
 
 <h3>Fair Launch Emissions</h3>
-<p>All distributions of tokens are done using a fair launch model, with no tokens set aside for the team, investors, advisors, whales, exchanges, etc. The only way to acquire GENESIS, World Stakes, or Land is to pay market price.</p>
+<p>All distributions of tokens are done using a fair launch model, with no tokens set aside for the team, investors, advisors, whales, exchanges, etc. The only way to acquire GENESIS, World Shards, or Land is to pay market price.</p>
 <p>The only groups that will receive GENESIS are the world owners, participants in governance, and the Genesis Foundation, to drive ongoing development, and liquidity providers on decentralized exchanges, to ensure a smooth market for GENESIS. There are zero (0) GENESIS set aside for:</p>
 <ul>
 <li>The Game Credits team</li>

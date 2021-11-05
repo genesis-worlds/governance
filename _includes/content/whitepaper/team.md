@@ -10,7 +10,7 @@
 
   <div class="team-column">
     <h3>Community</h3>
-    <p><b>Deanna</b><br>Marketing Director</p>
+    <p><b>Dee</b><br>Marketing Director</p>
     <p><b>Josh</b><br>Game Director</p>
     <p><b>Chris</b><br>Community</p>
     <p><b>Patty</b><br>Community</p>
